@@ -33,7 +33,7 @@ def main():
         pux_file = sys.argv[1]
         extract_secrets(pux_file)
     except Exception as e:
-        print("\nHINT: Command should be invoked as python main.py [1PUX_FILE]")
+        print("\nHINT: Command should be invoked as: python main.py [1PUX_FILE]")
         print("\n", e)
 
 if __name__ == "__main__":
