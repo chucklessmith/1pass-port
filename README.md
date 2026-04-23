@@ -14,6 +14,8 @@ Currently it looks for the security questions and corresponding answers you've p
 
 # Use
 
+In 1Password, to get the data file, go to File -> Export -> [Your Vault] and select 1PUX for the output. Then use the following command:
+
 `python main.py [YOUR_1PUX_FILE]`
 
 There currently are no command line options. This script will unzip the JSON data in the file you give it (*.1pux files are just a zip archive), comb through the JSON data, and spit the results back at you via stdout.
