@@ -1,0 +1,5 @@
+*.incomplete
+*.1pux
+*.zip
+.git
+/files
