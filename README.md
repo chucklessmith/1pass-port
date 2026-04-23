@@ -22,4 +22,4 @@ There currently are no command line options. This script will unzip the JSON dat
 
 # Suggestions
 
-Welcome! There are probably things I've forgotten that would be handy for all of us. Holler if there's something worth digging into!
+There are probably things I've forgotten that would be handy for all of us. Holler if there's something worth digging into!
