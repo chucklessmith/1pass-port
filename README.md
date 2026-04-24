@@ -14,7 +14,7 @@ Currently it looks for the security questions and corresponding answers you've p
 
 # Use
 
-To get the data file, go to 1Password and select File -> Export -> [Your Vault] and select 1PUX for the output. Then use the following command:
+To get the data file, go to 1Password and select File -> Export -> [Your Vault], then select 1PUX for the output. Then use the following command:
 
 `python main.py [YOUR_1PUX_FILE]`
 
