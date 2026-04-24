@@ -18,7 +18,9 @@ To get the data file, go to 1Password and select File -> Export -> [Your Vault] 
 
 `python main.py [YOUR_1PUX_FILE]`
 
-There currently are no command line options. This script will unzip the JSON data in the file you give it (*.1pux files are just a zip archive), comb through the JSON data, and spit the results back at you via stdout.
+There currently are no command line options. 
+
+This script will unzip the JSON data in the file you give it (*.1pux files are just a zip archive), comb through the JSON data, and spit the results back at you via stdout.
 
 Please note that as written, this code will **explicitly ignore archived entries**.
 
